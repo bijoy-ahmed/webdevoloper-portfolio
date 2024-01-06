@@ -16,7 +16,7 @@
 .section-tittle{
     color: #181818;
 font-size: 35px;
-font-family: Open Sans;
+
 font-weight: 700;
 text-align: center;
 }
@@ -76,6 +76,7 @@ justify-content: space-between;
 }
 .bennar-contant{
     max-width: 500px;
+   
 }
 .banner-greeting{
     font-size: 45px;
@@ -90,13 +91,34 @@ justify-content: space-between;
     margin-bottom:20px ;
 }
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
     padding: 130px;
-    background-color: #FFF8F3;
+   
     background: #FFF8F3; 
     border-radius: 10px"
-    margin: 130px 0px;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around ;
+}
+.about-info{
+    text-align: center;
+    color: #757575;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 30px;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
